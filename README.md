@@ -33,24 +33,24 @@ Essas bibliotecas, combinadas, formam a base necessária para lidar com todas as
 Para executar este projeto, siga os passos abaixo:
 - Clone este repositório para a sua máquina local.
     - Caso seja o google colab, pode-se utilizar:
-    ˋˋˋ
+    ~~~
     !git clone https://github.com/RamomLandim/MVP---Reconhecimento-de-expressao-Facial-utilizando-CNN.git
     %cd MVP---Reconhecimento-de-expressao-Facial-utilizando-CNN
-    ˋˋˋ
+    ~~~
 
 - Crie um ambiente virtual Python e ative-o:
-    ˋˋˋ
+    ~~~
     python -m venv venv
     venv\Scripts\activate
-    ˋˋˋ
+    ~~~
 
 - Instale as dependências do projeto:
-    ˋˋˋ
+    ~~~
     pip install -r requirements.txt
-    ˋˋˋ
+    ~~~
 
 - Caso queira exportar os modelos, pode-se utilizar esse código:
-    ˋˋˋ
+    ~~~
     from tensorflow.keras.models import load_model
     model = load_model('Modelos/modelv4.h5')
-    ˋˋˋ
+    ~~~
