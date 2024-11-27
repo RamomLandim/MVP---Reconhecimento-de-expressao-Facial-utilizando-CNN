@@ -1,10 +1,10 @@
 # MVP - Reconhecimento de expressão facial utilizando CNN
 Este projeto é um MVP (Produto Mínimo Viável) para o reconhecimento de expressões faciais utilizando Redes Neurais Convolucionais (CNNs). Ele é baseado em um modelo de aprendizado profundo treinado para identificar e classificar emoções em imagens de rostos, utilizando o Face Expression Recognition Dataset do Kaggle.
 
-🎯 Objetivo
+## 🎯 Objetivo
 O objetivo deste projeto é criar um modelo simples e eficiente que seja capaz de identificar as principais expressões faciais (como felicidade, tristeza, surpresa, etc.) a partir de imagens, fornecendo uma base inicial para sistemas de reconhecimento de emoção.
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 No desenvolvimento de um modelo de reconhecimento de expressões faciais utilizando CNNs, várias bibliotecas desempenham papéis essenciais, desde a manipulação de imagens até a construção, treinamento e avaliação do modelo. A seguir, descrevemos a funcionalidade de cada biblioteca e como elas são utilizadas neste projeto:
 
 - **os:** Essa biblioteca é usada para operações relacionadas ao sistema operacional, como navegação em diretórios, manipulação de arquivos e verificação da estrutura de pastas. É essencial para carregar e organizar o conjunto de dados de imagens.
